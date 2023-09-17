@@ -1,0 +1,38 @@
+[
+    {
+        "img": "/assets/img/golden-crown.png",
+        "title": "Golden Crown"
+    },
+    {
+        "img": "/assets/img/jkpin.png",
+        "title": "JK Pin"
+    },
+    {
+        "img": "/assets/img/kashaf-perfumes.png",
+        "title": "Kashaf Perfumes"
+    },
+    {
+        "img": "/assets/img/lacoste-bakery.png",
+        "title": "Lacoste Bakery"
+    },
+    {
+        "img": "/assets/img/shafe-inc.png",
+        "title": "Shafe INC."
+    },
+    {
+        "img": "/assets/img/sira-homz.png",
+        "title": "Sira Homz"
+    },
+    {
+        "img": "/assets/img/suffah-academy.png",
+        "title": "Suffah Academy"
+    },
+    {
+        "img": "/assets/img/the-magna-woman.webp",
+        "title": "The Magna Woman"
+    },
+    {
+        "img": "/assets/img/team-ace.png",
+        "title": "Team Ace"
+    }
+]
