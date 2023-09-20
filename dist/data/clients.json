@@ -1,30 +1,30 @@
 [
     {
-        "img": "assets/img/golden-crown.png",
+        "img": "assets/img/golden-crown.webp",
         "title": "Golden Crown"
     },
     {
-        "img": "assets/img/jkpin.png",
+        "img": "assets/img/jkpin.webp",
         "title": "JK Pin"
     },
     {
-        "img": "assets/img/kashaf-perfumes.png",
+        "img": "assets/img/kashaf-perfumes.webp",
         "title": "Kashaf Perfumes"
     },
     {
-        "img": "assets/img/lacoste-bakery.png",
+        "img": "assets/img/lacoste-bakery.webp",
         "title": "Lacoste Bakery"
     },
     {
-        "img": "assets/img/shafe-inc.png",
+        "img": "assets/img/shafe-inc.webp",
         "title": "Shafe INC."
     },
     {
-        "img": "assets/img/sira-homz.png",
+        "img": "assets/img/sira-homz.webp",
         "title": "Sira Homz"
     },
     {
-        "img": "assets/img/suffah-academy.png",
+        "img": "assets/img/suffah-academy.webp",
         "title": "Suffah Academy"
     },
     {
@@ -32,7 +32,7 @@
         "title": "The Magna Woman"
     },
     {
-        "img": "assets/img/team-ace.png",
+        "img": "assets/img/team-ace.webp",
         "title": "Team Ace"
     }
 ]
