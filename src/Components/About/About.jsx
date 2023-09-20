@@ -1,5 +1,5 @@
-import { Grid, Stack, Typography } from "@mui/material";
-import React, { useEffect, useState } from "react";
+import { Grid, Stack } from "@mui/material";
+import { useEffect, useState } from "react";
 import AboutPoint from "./AboutPoint";
 import theme from "../../theme";
 import SectionTitle from "../SectionTitle";
@@ -9,9 +9,13 @@ const About = () => {
 
   useEffect(() => {
     (async () => {
-      const response = await fetch("src/data/aboutPoints.json");
-      const data = await response.json();
-      setAboutPoints(data);
+      try{
+        const response = await fetch("/data/aboutPoints.json");
+        const data = await response.json();
+        setAboutPoints(data);
+      }catch(err){
+        console.error('Error Fetching About Points: ' + err)
+      }
     })();
   }, []);
 

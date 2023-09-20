@@ -3,14 +3,17 @@ import { Box, Grid, ImageListItem } from "@mui/material";
 
 const Clients = () => {
   const [clients, setClients] = useState([]);
-
-  const baseUrl = `http://localhost`;
+  const origin = location.origin;
 
   useEffect(() => {
     (async () => {
-      const response = await fetch("src/data/clients.json");
-      const data = await response.json();
-      setClients(data);
+      try{
+        const response = await fetch("/data/clients.json");
+        const data = await response.json();
+        setClients(data);
+      }catch(err){
+        console.error('Error Fetching Clients: ' + err)
+      }
     })();
   }, []);
   return (
@@ -28,7 +31,7 @@ const Clients = () => {
                     width: "240px",
                     objectFit: "contain",
                   }}
-                  src={`${baseUrl}:5173/src/${client.img}`}
+                  src={`${origin}/${client.img}`}
                   alt={client.title}
                 />
               </ImageListItem>

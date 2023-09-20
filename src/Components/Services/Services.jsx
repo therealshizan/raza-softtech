@@ -1,4 +1,4 @@
-import { Box, Grid, Stack, useMediaQuery } from "@mui/material";
+import { Box, Grid, useMediaQuery } from "@mui/material";
 import Service from "./Service";
 import SectionTitle from "../SectionTitle";
 import useFetch from "../../hooks/useFetch";
@@ -12,10 +12,13 @@ const Services = () => {
   const fetchData = useFetch;
   useEffect(() => {
     (async () => {
-      const fetchedServices = await fetchData("src/data/services.json");
-      setServices(fetchedServices);
+      try{
+        const fetchedServices = await fetchData("/data/services.json");
+        setServices(fetchedServices);
+      }catch(err){
+        console.error('Error Fetching Servcies' + err)
+      }
     })();
-    console.log(tabletMedia);
   }, []);
 
   return (

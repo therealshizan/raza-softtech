@@ -1,0 +1,41 @@
+[
+  {
+    "id": 1,
+    "title": "Web Design & Development",
+    "description": "We offer custom web design and development services tailored to your business needs. Our team of experts will create responsive and user-friendly websites to help you establish a strong online presence.",
+    "features": [
+      "Custom website design",
+      "Front-end and back-end development",
+      "Responsive web development",
+      "E-commerce solutions",
+      "Content management systems (CMS)"
+    ],
+    "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" strokeWidth=\"1.5\" stroke=\"currentColor\" className=\"w-6 h-6\"><path strokeLinecap=\"round\" strokeLinejoin=\"round\" d=\"M9 17.25v1.007a3 3 0 01-.879 2.122L7.5 21h9l-.621-.621A3 3 0 0115 18.257V17.25m6-12V15a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 15V5.25m18 0A2.25 2.25 0 0018.75 3H5.25A2.25 2.25 0 003 5.25m18 0V12a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 12V5.25\"/></svg>"
+  },
+  {
+    "id": 2,
+    "title": "Application Development",
+    "description": "Our application development services encompass the creation of mobile apps and desktop applications for various platforms. We specialize in delivering high-quality, scalable software solutions.",
+    "features": [
+      "iOS and Android app development",
+      "Cross-platform app development",
+      "Desktop application development",
+      "User interface (UI) design",
+      "Quality assurance and testing"
+    ],
+    "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" strokeWidth=\"1.5\" stroke=\"currentColor\" className=\"w-6 h-6\"><path strokeLinecap=\"round\" strokeLinejoin=\"round\" d=\"M10.5 1.5H8.25A2.25 2.25 0 006 3.75v16.5a2.25 2.25 0 002.25 2.25h7.5A2.25 2.25 0 0018 20.25V3.75a2.25 2.25 0 00-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 18.75h3\" /></svg>"
+  },
+  {
+    "id": 3,
+    "title": "Tally Modules",
+    "description": "We provide Tally Modules designed to enhance the functionality of your Tally ERP software. These modules are built to streamline your accounting and financial processes.",
+    "features": [
+      "Custom Tally module development",
+      "Integration with Tally ERP",
+      "Automation of financial tasks",
+      "Reporting and analytics",
+      "User training and support"
+    ],
+    "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" strokeWidth=\"1.5\" stroke=\"currentColor\" className=\"w-6 h-6\"><path strokeLinecap=\"round\" strokeLinejoin=\"round\" d=\"M12 6v12m-3-2.818l.879.659c1.171.879 3.07.879 4.242 0 1.172-.879 1.172-2.303 0-3.182C13.536 12.219 12.768 12 12 12c-.725 0-1.45-.22-2.003-.659-1.106-.879-1.106-2.303 0-3.182s2.9-.879 4.006 0l.415.33M21 12a9 9 0 11-18 0 9 9 0 0118 0z\" /></svg>"
+  }
+]
